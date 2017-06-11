@@ -1,0 +1,26 @@
+/* Styles go here */
+.vehicle-type label {
+    font: bold 1.5em 'Oswald';
+    vertical-align: middle;
+    width: 1.5em;
+}
+
+.vehicle-type span {
+    vertical-align: middle;
+}
+
+.demo div {
+    border: 1px solid red;
+}
+
+.demo div label {
+    /*font: bold 1.5em 'Oswald';*/
+    font-size: 1.5em;
+    width: 2.5em;
+    background-color: lightblue;
+    margin: 0 0;
+}
+
+.demo div span {
+    background-color: lightpink
+}

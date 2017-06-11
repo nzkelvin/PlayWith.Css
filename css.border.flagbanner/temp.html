@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <style>
+            .product-grid .product-category-container {
+                position: relative;
+                left: -5px;
+            }
+
+            .product-grid .product-category-container:after {
+                content: "";
+                display: inline-block;
+                position: relative;
+                /*top: -22px;*/
+                /*left: 100px;*/
+                height:0;
+                width: 0;
+                border-width:11px 11px 11px 11px;
+                border-style:solid;
+                border-color:#f17a20 transparent #f17a20 #f17a20;
+                bottom: 0;
+            }
+
+            .product-grid .product-category-container .product-category {
+                position: relative;
+                display: inline-block;
+                /*left: -5px;*/
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                height: 22px;
+                width: 100px;
+                bottom: 0;
+            }
+
+            .product-grid .product-category-container .product-category span {
+                color: white;
+                font: bold 16px Lato;
+                padding-left: 14px;
+            }
+
+            .br-orange-bg {
+                background-color: #f17a20;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="product-grid">
+            <div class="product-category-container">
+                <div class="product-category br-orange-bg">
+                    <span>Tools</span>
+                </div>
+            <div>
+        </div>
+    </body>
+</html>

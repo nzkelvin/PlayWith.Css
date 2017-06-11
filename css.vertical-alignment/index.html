@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link data-require="bootstrap-css@*" data-semver="4.0.0-alpha.4" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+      <div class="vehicle-type">
+        <h3>Real world use</h3>
+        <label>OE:</label><span>BMW</span>
+      </div>
+      <h3>Demos</h3>
+      <div class="demo">
+        <p>Verticel align defines the alignment in the inline box, not the block box</p>
+        <div>
+          <label style="vertical-align: middle">Label:</label>
+          <span style="vertical-align: middle">Value</span>
+        </div>
+        <p>Parent hight equals to the tallest sibling element? I think also but height is less important than the baseline. percentage is very useful.</p>
+        <p>3 key compments: Logic box, font box, and baseline</p>
+        <p>1 key concept: baseline of the parent element is a imaginary line</p>
+        <p><a>https://developer.mozilla.org/en/docs/Web/CSS/vertical-align</a></p>
+        <div>
+          <label style="vertical-align: middle; font-family: Oswald;">Label:</label>
+          <span style="vertical-align: middle">Value</span>
+          <label style="vertical-align: middle; font-size:3em;">Label:</label>
+          <span style="vertical-align: top">Top</span>
+          <span style="vertical-align: text-top">Text-top</span>
+          <span style="vertical-align: -10px">Length</span>
+          <span style="vertical-align: -50%">Percentage</span>
+        </div>
+        <div style="font-size: 3em;">
+          <label style="vertical-align: middle; font-size:3em;">Label:</label>
+          <span style="vertical-align: baseline">baseline</span>
+          <span style="vertical-align: sub">sub</span>
+          <span style="vertical-align: super">super</span>
+          <span style="vertical-align: top">Top</span>
+          <span style="vertical-align: text-top">Text-top</span>
+          <span style="vertical-align: middle">Middle</span>
+          <span style="vertical-align: text-bottom">text-bottom</span>
+          <span style="vertical-align: bottom">bottom</span>
+        </div>
+      </div>
+  </body>
+
+</html>
